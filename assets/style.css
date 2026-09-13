@@ -544,6 +544,16 @@ footer::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;back
   .ft-main{grid-template-columns:1fr}
   .marquee .mq-track span{font-size:11.5px;letter-spacing:.2em}
 }
+@media (max-width:480px){
+  .navbar{padding:0 16px;gap:14px;height:72px}
+  header.scrolled .navbar{height:62px}
+  .brand{gap:11px}
+  .brand::before{height:34px}
+  .brand .cn{font-size:17.5px;letter-spacing:.1em}
+  .brand .en{font-size:8.5px;letter-spacing:.16em}
+  .burger{padding:10px 6px}
+  html{scroll-padding-top:76px}
+}
 @media (max-width:420px){
   .club-grid{grid-template-columns:1fr}
 }
